@@ -25,9 +25,13 @@ const Button = ({
         className={`button ${variant} ${size} ${color} ${checkDisableShadow}`}
         {...restProps}
       >
-        {startIcon ? startIcon : null}
+        {startIcon ? (
+          <span className="material-icons start-icon">{startIcon}</span>
+        ) : null}
         {children || 'Default'}
-        {endIcon ? endIcon : null}
+        {endIcon ? (
+          <span className="material-icons end-icon">{endIcon}</span>
+        ) : null}
       </button>
     </div>
   );

@@ -55,3 +55,17 @@
 .disableShadow {
   box-shadow: none;
 }
+
+// Icons
+.start-icon,
+.end-icon {
+  font-size: 15px;
+}
+.start-icon {
+  margin-right: 0.5em;
+  margin-left: -0.5em;
+}
+.end-icon {
+  margin-left: 0.5em;
+  margin-right: -0.5em;
+}
