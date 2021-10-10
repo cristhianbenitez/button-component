@@ -93,4 +93,40 @@
 .lg {
   padding: 0.85em 1.75em;
 }
+
+.default {
+  background: #e0e0e0;
+  color: #3f3f3f;
+}
+
+.default:hover, .default:focus {
+  background: #aeaeae;
+}
+
+.primary {
+  background: #2962ff;
+  color: #fff;
+}
+
+.primary:hover, .primary:focus {
+  background: #0039cb;
+}
+
+.secondary {
+  background: #455a64;
+  color: #fff;
+}
+
+.secondary:hover, .secondary:focus {
+  background: #1c313a;
+}
+
+.danger {
+  background: #d32f2f;
+  color: #fff;
+}
+
+.danger:hover, .danger:focus {
+  background: #9a0007;
+}
 /*# sourceMappingURL=style.css.map */

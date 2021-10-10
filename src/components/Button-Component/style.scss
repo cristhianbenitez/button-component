@@ -89,4 +89,34 @@
 
 // Colors
 .default {
+  background: #e0e0e0;
+  color: #3f3f3f;
+  &:hover,
+  &:focus {
+    background: #aeaeae;
+  }
+}
+.primary {
+  background: #2962ff;
+  color: #fff;
+  &:hover,
+  &:focus {
+    background: #0039cb;
+  }
+}
+.secondary {
+  background: #455a64;
+  color: #fff;
+  &:hover,
+  &:focus {
+    background: #1c313a;
+  }
+}
+.danger {
+  background: #d32f2f;
+  color: #fff;
+  &:hover,
+  &:focus {
+    background: #9a0007;
+  }
 }
