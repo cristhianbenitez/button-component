@@ -30,12 +30,6 @@ function App() {
             <span className="regular-text">{`<Button variant='text' />'`}</span>
             <Button variant="text" />
           </div>
-        </div>
-        <div className="row">
-          <div className="button-container">
-            <span className="regular-text">{`<Button variant='text' />'`}</span>
-            <Button variant="text" />
-          </div>
           <div className="button-container">
             <span className="gray-text">&:hover, &:focus</span>
             <Button variant="text" />
@@ -43,12 +37,20 @@ function App() {
         </div>
         <div className="row">
           <div className="button-container">
-            <span className="regular-text">{`<Button variant='text' />'`}</span>
-            <Button variant="text" />
+            <span className="regular-text">{`<Button disableShadow />'`}</span>
+            <Button variant="contained" disableShadow />
+          </div>
+        </div>
+        <div className="row">
+          <div className="button-container">
+            <span className="regular-text">{`<Button disabled />'`}</span>
+            <Button disabled />
           </div>
           <div className="button-container">
-            <span className="gray-text">&:hover, &:focus</span>
-            <Button variant="text" />
+            <span className="gray-text">
+              {`<Button variant='text'disabled />'`}
+            </span>
+            <Button variant="text" disabled />
           </div>
         </div>
         <div className="row">

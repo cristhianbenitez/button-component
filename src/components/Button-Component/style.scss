@@ -14,13 +14,17 @@
   & .hover:focus {
     background: #aeaeae;
   }
+  &:disabled {
+    box-shadow: none;
+    color: #9e9e9e;
+  }
 }
 
 .outline {
   border: 1px solid #3d5afe;
-  box-shadow: none;
   background: #fff;
   color: #3d5afe;
+  box-shadow: none;
   &:hover,
   &focus {
     background: rgba(41, 98, 255, 0.1);
@@ -36,4 +40,18 @@
   &focus {
     background: rgba(41, 98, 255, 0.1);
   }
+}
+
+.contained {
+  background: #3d5afe;
+  border-radius: 6px;
+  color: #fff;
+  &:hover,
+  &:focus {
+    background: #344edf;
+  }
+}
+
+.disableShadow {
+  box-shadow: none;
 }

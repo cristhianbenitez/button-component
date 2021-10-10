@@ -11,17 +11,18 @@ import './style.css';
 const Button = ({
   children,
   variant = 'default',
-  disableShadow = 'false',
+  disableShadow = false,
   startIcon = false,
   endIcon = false,
   size = 'md',
   color = 'default',
   ...restProps
 }) => {
+  const checkDisableShadow = disableShadow ? 'disableShadow' : '';
   return (
     <div>
       <button
-        className={`button ${variant} ${disableShadow} ${size} ${color}`}
+        className={`button ${variant} ${size} ${color} ${checkDisableShadow}`}
         {...restProps}
       >
         {startIcon ? startIcon : null}
