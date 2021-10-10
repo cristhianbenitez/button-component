@@ -9,13 +9,14 @@ const Button = ({
   endIcon = false,
   size = '',
   color = '',
+  className = '',
   ...restProps
 }) => {
   const checkDisableShadow = disableShadow ? 'disableShadow' : '';
   return (
     <div>
       <button
-        className={`btn ${variant} ${size} ${color} ${checkDisableShadow} `}
+        className={`btn ${variant} ${size} ${color} ${checkDisableShadow} ${className} `}
         {...restProps}
       >
         {startIcon ? (

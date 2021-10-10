@@ -13,11 +13,6 @@
   background: #aeaeae;
 }
 
-.btn .hover:hover,
-.btn .hover:focus {
-  background: #aeaeae;
-}
-
 .btn:disabled {
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -127,6 +122,26 @@
 }
 
 .danger:hover, .danger:focus {
+  background: #9a0007;
+}
+
+.active-default {
+  background: #aeaeae;
+}
+
+.active-outline {
+  background: rgba(41, 98, 255, 0.1);
+}
+
+.active-primary {
+  background: #0039cb;
+}
+
+.active-secondary {
+  background: #1c313a;
+}
+
+.active-danger {
   background: #9a0007;
 }
 /*# sourceMappingURL=style.css.map */

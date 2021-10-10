@@ -12,7 +12,7 @@ function App() {
           </div>
           <div className="button-container">
             <span className="gray-text">&:hover, &:focus</span>
-            <Button hover="hover" />
+            <Button className="active-default" />
           </div>
         </div>
         <div className="row">
@@ -22,7 +22,7 @@ function App() {
           </div>
           <div className="button-container">
             <span className="gray-text">&:hover, &:focus</span>
-            <Button variant="outline" />
+            <Button variant="outline active-outline" />
           </div>
         </div>
         <div className="row">
@@ -32,7 +32,7 @@ function App() {
           </div>
           <div className="button-container">
             <span className="gray-text">&:hover, &:focus</span>
-            <Button variant="text" />
+            <Button variant="text active-outline" />
           </div>
         </div>
         <div className="row">
@@ -80,7 +80,7 @@ function App() {
         <div className="row wide-lg">
           <div className="button-container">
             <span className="regular-text">{`<Button size='default' />'`}</span>
-            <Button variant="contained" color="default" />
+            <Button variant="contained" color="default " />
           </div>
           <div className="button-container">
             <span className="regular-text">{`<Button color='primary' />'`}</span>
@@ -89,6 +89,36 @@ function App() {
           <div className="button-container">
             <span className="regular-text">{`<Button color='secondary' />'`}</span>
             <Button variant="contained" color="secondary" />
+          </div>
+          <div className="button-container">
+            <span className="regular-text">{`<Button color='danger' />'`}</span>
+            <Button variant="contained" color="danger" />
+          </div>
+        </div>
+        <div className="row wide-lg">
+          <div className="button-container">
+            <span className="regular-text">{`<Button size='default' />'`}</span>
+            <Button
+              variant="contained"
+              color="default"
+              className="active-default"
+            />
+          </div>
+          <div className="button-container">
+            <span className="regular-text">{`<Button color='primary' />'`}</span>
+            <Button
+              variant="contained"
+              color="primary"
+              className="active-primary"
+            />
+          </div>
+          <div className="button-container">
+            <span className="regular-text">{`<Button color='secondary' />'`}</span>
+            <Button
+              variant="contained"
+              color="secondary"
+              className="active-secondary"
+            />
           </div>
           <div className="button-container">
             <span className="regular-text">{`<Button color='danger' />'`}</span>
