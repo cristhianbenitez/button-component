@@ -1,0 +1,44 @@
+.button {
+  background: #e0e0e0;
+  padding: 0.75em 1.5em;
+  border-style: none;
+  -webkit-box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+          box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  border-radius: 6px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+}
+
+.button:hover, .button:focus {
+  background: #aeaeae;
+}
+
+.button .hover:hover,
+.button .hover:focus {
+  background: #aeaeae;
+}
+
+.outline {
+  border: 1px solid #3d5afe;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: #fff;
+  color: #3d5afe;
+}
+
+.outline:hover, .outlinefocus {
+  background: rgba(41, 98, 255, 0.1);
+}
+
+.text {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: #fff;
+  color: #3d5afe;
+}
+
+.text:hover, .textfocus {
+  background: rgba(41, 98, 255, 0.1);
+}
+/*# sourceMappingURL=style.css.map */
