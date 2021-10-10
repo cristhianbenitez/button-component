@@ -122,7 +122,11 @@ function App() {
           </div>
           <div className="button-container">
             <span className="regular-text">{`<Button color='danger' />'`}</span>
-            <Button variant="contained" color="danger" />
+            <Button
+              variant="contained"
+              color="danger"
+              className="active-danger"
+            />
           </div>
         </div>
       </div>
