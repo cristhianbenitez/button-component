@@ -59,8 +59,40 @@ function App() {
             <Button variant="contained" startIcon="local_grocery_store" />
           </div>
           <div className="button-container">
-            <span className="gray-text">{`<Button endIcon='local_grocery_store' />'`}</span>
+            <span className="regular-text">{`<Button endIcon='local_grocery_store' />'`}</span>
             <Button variant="contained" endIcon="local_grocery_store" />
+          </div>
+        </div>
+        <div className="row wide-md-plus">
+          <div className="button-container">
+            <span className="regular-text">{`<Button size='sm' />'`}</span>
+            <Button variant="contained" size="sm" />
+          </div>
+          <div className="button-container">
+            <span className="regular-text">{`<Button size='md' />'`}</span>
+            <Button variant="contained" size="md" />
+          </div>
+          <div className="button-container">
+            <span className="regular-text">{`<Button size='lg' />'`}</span>
+            <Button variant="contained" size="lg" />
+          </div>
+        </div>
+        <div className="row wide-lg">
+          <div className="button-container">
+            <span className="regular-text">{`<Button size='default' />'`}</span>
+            <Button variant="contained" color="default" />
+          </div>
+          <div className="button-container">
+            <span className="regular-text">{`<Button color='primary' />'`}</span>
+            <Button variant="contained" color="primary" />
+          </div>
+          <div className="button-container">
+            <span className="regular-text">{`<Button color='secondary' />'`}</span>
+            <Button variant="contained" color="secondary" />
+          </div>
+          <div className="button-container">
+            <span className="regular-text">{`<Button color='danger' />'`}</span>
+            <Button variant="contained" color="danger" />
           </div>
         </div>
       </div>

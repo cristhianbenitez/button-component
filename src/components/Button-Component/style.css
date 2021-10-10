@@ -1,4 +1,4 @@
-.button {
+.btn {
   background: #e0e0e0;
   padding: 0.75em 1.5em;
   border-style: none;
@@ -9,19 +9,23 @@
   font-weight: 500;
 }
 
-.button:hover, .button:focus {
+.btn:hover, .btn:focus {
   background: #aeaeae;
 }
 
-.button .hover:hover,
-.button .hover:focus {
+.btn .hover:hover,
+.btn .hover:focus {
   background: #aeaeae;
 }
 
-.button:disabled {
+.btn:disabled {
   -webkit-box-shadow: none;
           box-shadow: none;
   color: #9e9e9e;
+}
+
+.btn:disabled:hover, .btn:disabled:focus {
+  background: #fff;
 }
 
 .outline {
@@ -76,5 +80,17 @@
 .end-icon {
   margin-left: 0.5em;
   margin-right: -0.5em;
+}
+
+.sm {
+  padding: 0.5em 1em;
+}
+
+.md {
+  padding: 0.75em 1.5em;
+}
+
+.lg {
+  padding: 0.85em 1.75em;
 }
 /*# sourceMappingURL=style.css.map */

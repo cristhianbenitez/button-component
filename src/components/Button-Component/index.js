@@ -22,7 +22,7 @@ const Button = ({
   return (
     <div>
       <button
-        className={`button ${variant} ${size} ${color} ${checkDisableShadow}`}
+        className={`btn ${variant} ${size} ${color} ${checkDisableShadow}`}
         {...restProps}
       >
         {startIcon ? (
